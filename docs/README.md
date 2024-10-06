@@ -2,19 +2,6 @@
 
 The most revolutionary cinema-related app.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
 ## Domain Model
 <img src="finalDomain.png"> 
 This model contains the following classes:
@@ -33,7 +20,6 @@ This model contains the following classes:
 Cinem8 app physical architecture follows a simple path. First the smartphone containing the application running it in dart code. There are a lot of users in the app, so we must save and get the details of each user storing the data in one database common to everybody. All the data exterior to the user informatios is stored in API server(IMDb).
 
 ## Logical Architecture
-![alt text]("./logcalarch.drawio.svg")
 <img src="./logcalarch.drawio.svg">
 
 The cinem8 app is divided into two main packages, the external devices packages, and Cinem8 system packages. Inside of the external devices packages , there are the
